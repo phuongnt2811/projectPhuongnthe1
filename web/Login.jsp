@@ -32,7 +32,7 @@
                     <td><input type="text" name="username" class="form-control" placeholder=  "Account" > <br></td>
                     <td><input type="password" name="password" class="form-control" placeholder="Password"> <br></td> 
 <!--                    <td><input type="checkbox" name="remember" value="true"> Remember me </td> -->
-                    <a href="update-pasword"> forgot password?</a> <br>
+                    <a href="update-pasword"> Forgot password?</a> <br>
                     <h4 style="color: red">${error} </h4>
 
                     <div class="Submit">
