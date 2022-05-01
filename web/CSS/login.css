@@ -1,0 +1,101 @@
+@keyframes animate {
+    /* bắt đầu và tăng dần từ 0-100 rồi lại quay về 0 */
+    0%,
+    100% {
+        background-image: url(image/index/1.jpg);
+    }
+
+    20% {
+        background-image: url(image/index/2.jpg);
+    }
+
+    40% {
+        background-image: url(image/index/3.jpg);
+    }
+
+    60% {
+        background-image: url(image/index/4.jpg);
+    }
+
+    80% {
+        background-image: url(image/index/5.jpg);
+    }
+
+    100% {
+        background-image: url(image/index/6.jpg);
+    }
+}
+
+body {
+    position: relative;
+    color: black;
+    animation: animate 25s ease-in-out infinite;
+    background-size: cover;
+    text-align: center;
+    margin: 150px auto;
+
+    /* margin-top: 50px; */
+}
+
+body {
+    height: auto;
+    width: 30%;
+
+}
+
+#login {
+    min-height: 100px;
+    display: inline-block; 
+    padding: 10px;
+    background-color: #ffffffcc;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid gray;	
+}
+.form-select {
+    position: relative;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid gray; 
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.logo img{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+
+}
+
+input[type = "submit"]{
+    margin-bottom: 20px;
+    min-height: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: rgb(106, 106, 235);
+    border: 1px solid activeborder;
+}
