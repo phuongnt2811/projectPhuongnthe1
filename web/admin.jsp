@@ -25,7 +25,7 @@
                 <li>
                     <a href="adminHome" class="active">
                         <i class='bx bxs-grid-alt' ></i>
-                        <span class="links_name">Dash board</span>
+                        <span class="links_name">dash board</span>
                     </a>
                 </li>
                 <c:if test="${sessionScope.account.getRole() eq 'TEACHER' or sessionScope.account.getRole() eq 'ADMIN'}">
